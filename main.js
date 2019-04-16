@@ -9,7 +9,7 @@ setInterval(() => {
     .one('transitionend', (e) => {
       $(e.currentTarget).removeClass('leave').addClass('enter')
     })
-  $(`.images > img:nth-chlid(${x(n)})`).removeClass('enter').addClass('current')
+  $(`.images > img:nth-child(${x(n+1)})`).removeClass('enter').addClass('current')
   n += 1
 }, 3000)
 
