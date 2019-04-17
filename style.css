@@ -16,7 +16,7 @@
 .images > img{
   width: 100%;
   top: 0;
-  transition: all 0.5s;
+  transition: all 1500ms;
   position: absolute;
 }
 .images > img.current {
